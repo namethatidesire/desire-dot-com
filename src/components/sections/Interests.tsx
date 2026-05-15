@@ -124,10 +124,8 @@ export default function AboutCarousel() {
                         alt={interest.title}
                       />
                     </div>
-                    <div className="pt-1">
-                      <p className="text-muted-foreground leading-relaxed">
+                    <div className="pt-1 text-muted-foreground leading-relaxed">
                         {interest.body}
-                      </p>
                     </div>
                   </>
                 );
