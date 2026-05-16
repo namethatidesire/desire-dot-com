@@ -9,7 +9,7 @@ export const projects: Project[] = [
     description:
       "A self-hosted full-stack web platform with couples in mind: featuring a shared blog, image gallery, and sticky-note style text post system. Deployed via Docker Compose with an nginx reverse proxy on a personal home server.",
     techTags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma ORM", "Docker", "nginx", "JWT", "sharp", "Zod"],
-    githubUrl: "https://github.com/namethatidesire/abacus",
+    githubUrl: "https://github.com/namethatidesire",
     liveUrl: "",
   },
   {
@@ -28,8 +28,8 @@ export const projects: Project[] = [
     title: "AI Note Organizer Agent | Clair",
     date: "",
     description:
-      "[Hackathon Submission for DeerHacks V 2026] <replace this text>",
-    techTags: ["React.js", "Next.js", "TypeScript", "Node.js", "PostgreSQL", "Claude API"],
+      "DeerHacks V 2026 hackathon submission. An AI-powered notes organizer that transforms raw ideas into a structured, searchable knowledge base. Uses a multi-agent Claude pipeline to classify notes, extract tags, and generate processed content on ingestion, with hybrid semantic and keyword search over stored notes via Supabase pgvector. Async task processing via Celery and Redis, containerized with Docker Compose.",
+    techTags: ["React.js", "TypeScript", "FastAPI", "Celery", "Redis", "Supabase", "pgvector", "Claude API", "Docker"],
     featured: true,
     githubUrl: "https://github.com/AlMaini/clair",
     liveUrl: "",

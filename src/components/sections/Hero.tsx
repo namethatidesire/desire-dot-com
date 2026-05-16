@@ -55,7 +55,7 @@ export default function Hero() {
           variants={item}
           className="max-w-xl mx-auto text-base sm:text-lg text-muted-foreground leading-relaxed mb-10"
         >
-          From systems programming to full-stack web apps.
+          Computer Science @ University of Toronto
         </motion.p>
 
         <motion.div

@@ -40,7 +40,7 @@ export default function About() {
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
               I&apos;ve worked across the stack in production environments,
-              from Vue.js + Go backends to C# Office Open XML document pipelines. I&apos;m
+              from Vue.js + Go backends to C# Office-document pipelines. I&apos;m
               always looking for problems where good engineering actually changes
               outcomes for real users.
             </p>

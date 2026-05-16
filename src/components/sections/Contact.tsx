@@ -50,14 +50,6 @@ export default function Contact() {
           />
         </div>
 
-        <a
-          href="https://github.com/namethatidesire/desire-dot-com"
-          target="_blank"
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-accent text-accent-foreground font-medium text-sm hover:opacity-90 transition-opacity"
-        >
-          this.repo.open()
-        </a>
-
         <p className="mt-16 text-xs text-muted-foreground">
           Built with Next.js, Tailwind CSS &amp; Framer Motion
         </p>
