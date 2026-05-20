@@ -6,7 +6,7 @@ import { GitHubIcon, LinkedInIcon } from "@/components/icons/BrandIcons";
 export default function Contact() {
   return (
     <SectionWrapper id="contact">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 text-center">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-24 text-center">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-foreground">Let&apos;s Talk...</h2>
           <div className="w-12 h-1 bg-accent mt-3 rounded-full mx-auto" />
@@ -41,13 +41,13 @@ export default function Contact() {
             label="Send an email"
             title="carlcabadingdev@gmail.com"
           />
-          <SocialLink
+          {/* <SocialLink
             href="/resume.pdf"
             icon={<Download size={18} />}
             label="Download resume PDF"
             title="View Resume"
             download
-          />
+          /> */}
         </div>
 
         <p className="mt-16 text-xs text-muted-foreground">
