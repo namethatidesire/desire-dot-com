@@ -5,7 +5,7 @@ import { projects } from "@/data/projects";
 export default function Projects() {
   return (
     <SectionWrapper id="projects" className="bg-muted">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+      <div id="projects-jump" className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-24">
         <div className="mb-12">
           <h2 className="text-3xl font-bold text-foreground">Projects</h2>
           <div className="w-12 h-1 bg-accent mt-3 rounded-full" />

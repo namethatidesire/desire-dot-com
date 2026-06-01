@@ -66,15 +66,15 @@ export default function Hero() {
             href="#projects"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-accent text-accent-foreground font-medium text-sm hover:opacity-90 transition-opacity"
           >
-            View My Work
+            View Projects
           </a>
-          <a
+          {/* <a
             href="/resume.pdf"
             download
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-medium text-sm hover:bg-muted transition-colors"
           >
             Download Resume
-          </a>
+          </a> */}
         </motion.div>
 
         <motion.div
@@ -98,16 +98,16 @@ export default function Hero() {
           <SocialLink
             href="mailto:carlcabadingdev@gmail.com"
             icon={<Mail size={18} />}
-            label="Send an email"
+            label="Email carlcabadingdev@gmail.com"
             title="carlcabadingdev@gmail.com"
           />
-          <SocialLink
+          {/* <SocialLink
             href="/resume.pdf"
             icon={<Download size={18} />}
             label="Download resume PDF"
             title="View Resume"
             download
-          />
+          /> */}
         </motion.div>
       </motion.div>
     </section>
