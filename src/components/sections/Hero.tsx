@@ -34,7 +34,7 @@ export default function Hero() {
           variants={item}
           className="text-sm font-medium text-accent mb-2 tracking-widest uppercase"
         >
-          This is
+          Hi, I'm
         </motion.p>
 
         <motion.h1
@@ -48,7 +48,7 @@ export default function Hero() {
           variants={item}
           className="text-xl sm:text-2xl text-muted-foreground mb-6"
         >
-          Software Engineer
+          Software Engineer | Full-Stack Dev
         </motion.p>
 
         <motion.p

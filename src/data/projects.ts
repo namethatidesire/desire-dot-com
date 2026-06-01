@@ -9,7 +9,7 @@ export const projects: Project[] = [
     description:
       "A self-hosted full-stack web platform with couples in mind: featuring a shared blog, image gallery, and sticky-note style text post system. Deployed via Docker Compose with an nginx reverse proxy on a personal home server.",
     techTags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma ORM", "Docker", "nginx", "JWT", "sharp", "Zod"],
-    githubUrl: "https://github.com/namethatidesire",
+    githubUrl: "",
     liveUrl: "",
   },
   {
